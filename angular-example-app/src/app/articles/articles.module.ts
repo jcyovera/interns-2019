@@ -3,10 +3,11 @@ import { CommonModule } from '@angular/common';
 
 import { ArticlesRoutingModule } from './articles-routing.module';
 import { ArticlesComponent } from './articles.component';
+import { ArticleComponent } from './article/article.component';
 
 
 @NgModule({
-  declarations: [ArticlesComponent],
+  declarations: [ArticlesComponent, ArticleComponent],
   imports: [
     CommonModule,
     ArticlesRoutingModule

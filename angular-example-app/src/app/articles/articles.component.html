@@ -1,1 +1,6 @@
-<p>articles works!</p>
+
+
+<div class="ui grid posts" *ngFor="let item of articles">
+  <bx-article [article]="item" (addEvent)="writeConsole($event)"></bx-article>
+</div>
+
